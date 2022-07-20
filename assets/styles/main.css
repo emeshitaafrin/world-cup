@@ -29,39 +29,21 @@ p {
 .btn {
     font-family: 'Poppins', sans-serif;
     font-weight: 400;
-    font-size: 20px;
-    line-height: 23px;
+    font-size: 16px;
+    line-height: 18px;
     text-align: center;
-    color: #FFFFFF;
-    transition: all 0.3s ease-in-out;
-    background: #DD0000;
+    transition: all 0.5s ease;
     border-radius: 5px;
     padding: 16px 25px;
+    border: 1px solid transparent;
     width: 190px;
 }
-.btn span i {
+.btn i {
     font-size: 16px;
-    display: none;
 }
-.btn span {
-    cursor: pointer;
-    display: inline-block;
-    position: relative;
-    transition: 0.5s;
-}
-.btn span::after {
-    content: '\00bb';
-    position: absolute;
-    opacity: 0;
-    top: 0;
-    right: -20px;
-    transition: 0.5s;
-}
-.button:hover span:after {
-    right: 0;
-  }
-.btn:hover span {
-    padding-right: 25px;
+.btn:hover {
+    color: #161616;
+    letter-spacing: 1.5px;
 }
 
 /* Global Css End */
@@ -94,4 +76,64 @@ p {
     max-width: 450px;
 }
 
+.hero-btn {
+    background-color: #DD0000;
+    color: #FFFFFF;
+}
+.hero-btn:hover {
+    background-color: #FFFFFF;
+}
+
 /* Section - Banner - Style End */
+
+/* Section - Blog Post - Style Start */
+.blog-area {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    margin-top: 130px;
+}
+.blog-area .btns-area a.active {
+    background: #DD0000;
+    color: #FFFFFF;
+}
+a.active:hover {
+    background: transparent;
+    color: #FFFFFF;
+    border-color: #DD0000;
+}
+
+.btns-area {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #161616;
+    padding: 15px;
+    border-radius: 10px;
+    margin-right: 24px;
+}
+.btns-area .btn {
+    margin-bottom: 30px;
+    padding: 17px 0px;
+    font-size: 16px;
+    background: #FFFFFF;
+    color: #161616;
+}
+.blogs-post {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 24px;
+}
+.single-blog {
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+    border-radius: 10px;
+}
+
+
+
+
+
+
+
+/* Section - Blog Post - Style End */
