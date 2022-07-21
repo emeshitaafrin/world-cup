@@ -6,6 +6,7 @@
 body {
     font-family: 'Poppins', 'Roboto' sans-serif;
     overflow-x: hidden;
+    width: 100%;
 }
 
 /* Global Css */
@@ -143,6 +144,7 @@ a.active:hover {
 .single-blog .img-box {
     overflow: hidden;
     border-radius: 10px 10px 0 0;
+    
 }
 .single-blog .img-box img {
     transition: all 0.5s ease;
@@ -153,6 +155,7 @@ a.active:hover {
 .single-blog .img-box img {
     width: 100%;
 }
+
 .single-blog .blog-info {
     padding: 20px;
 }
@@ -231,7 +234,52 @@ a.active:hover {
 .footer-area .footer-menu li:not(:last-child) {
     margin-right: 60px;
 }
-
-
 /* Section - Footer Area - Style End */
+
+/* Pgae -  Upcoming Match Area - Start */
+.single-match {
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+    border-radius: 10px;
+    padding: 50px 30px;
+    text-align: center;
+}
+.single-match .flag-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.single-match .flag-box figure img {
+    width: 100px;
+    height: 60px;
+}
+.single-match .flag-box span {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #161616; 
+    margin: 0 20px;
+}
+.single-match .match-info h3 {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+    color: #161616;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.single-match .match-info span {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    color: #4D4D4D;
+}
+/* Pgae -  Upcoming Match Area - End */
 
