@@ -54,7 +54,7 @@
 
 }
 /* Viewports between 481px and 768px wide */
-@media only screen and (min-device-width: 481px) and (max-device-width: 768px) {
+@media only screen and (min-device-width: 481px) and (max-device-width: 767px) {
     .container-width {
         width: 100%;
     }
@@ -96,6 +96,76 @@
         grid-template-columns: repeat(2, 1fr);
         grid-gap: 24px;
         margin: 0 auto;
+    }
+    /* Section - Footer Area - Style Start */
+ 
+    .footer-area .line {
+        width: 100%;
+    }
+    .footer-area .footer-menu {
+        flex-direction: column;
+        padding-top:30px;
+        padding-bottom: 50px;
+    }
+
+    .footer-area .footer-menu li:not(:last-child) {
+        margin-bottom: 30px;
+        margin-right: 0;
+    }
+}
+/* Viewports between 481px and 768px wide */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+    .container-width {
+        width: 100%;
+    }
+    .hero-area {
+        flex-direction: column;
+        text-align: center;
+        padding: 0 35px;
+    }
+    .hero-area h1.hero-title {
+        font-size: 36px;
+        line-height: 43px;
+        padding-top: 30px;
+    }
+    .hero-area p.hero-desc {
+        max-width: 100%;
+    }
+    .hero-area .banner-img img {
+        padding-top: 50px;
+    }
+    .blog-area {
+        flex-direction: column;
+    }
+    .btns-area {
+        flex-direction: row;
+        background: transparent;
+        justify-content: center;
+        width: 100%;
+        
+        padding: 15px;
+        border-radius: 10px;
+        margin-right: 0px;
+    }
+    .blog-area .btns-area .btn {
+        width: 80%;
+        border-color: #E8E8E8;
+    }
+  
+    .blog-area .btns-area .btn:not(:last-child) {
+        margin-right: 10px;
+    }
+  
+    .blogs-post {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 24px;
+        margin: 0 auto;
+    }
+    .pagination {
+        text-align: center;
+        margin-top: 80px;
+        display: block;
     }
     /* Section - Footer Area - Style Start */
  

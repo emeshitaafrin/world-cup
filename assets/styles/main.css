@@ -193,6 +193,21 @@ a.active:hover {
 }
 /* Section - Blog Post - Style End */
 
+.pagination {
+    text-align: center;
+    margin-top: 80px;
+    display: none;
+}
+.pagination .view-btn {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    color: #FFFFFF;
+    background: #DD0000;
+}
+
 /* Section - Footer Area - Style Start */
 .footer-area {
     background-color: #161616;
